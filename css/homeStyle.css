@@ -48,6 +48,10 @@ nav{
     color:#F9FAFA;
     font-size: 1.5em;
 }
+a{
+  text-decoration: none;
+  color: #F9FAFA;
+}
 /* RESPONSIVE */
 .burger{
     display: none;
@@ -299,7 +303,6 @@ a:hover{
     padding: 10px 20px;
   }
 }
-
 .btn:hover {
   background-color: #747B89;
 }
@@ -307,14 +310,12 @@ a:hover{
   background-color: #F9FAFA;
   color: #0F0F0F;
 }
-
 /* img opening modals */
 #myImg {
   cursor: pointer;
   transition: 0.3s;
 }
-#myImg:hover {opacity: 0.6;}
-    
+#myImg:hover {opacity: 0.6;}  
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -365,7 +366,6 @@ a:hover{
   text-decoration: none;
   cursor: pointer;
 }
-
 
 /*CONTACTS*/
 .comments-form{
